@@ -14,12 +14,12 @@ public class Main {
 
         //найти сотрудника с минимальной зарплатой
         System.out.println("сотрудник с минимальной зарплатой:");
-        employeesBook.printEmployeeWithMinSalary();
+        System.out.println(employeesBook.getEmployeeWithMinSalary());
         System.out.println();
 
         //найти сотрудника с максимальной зарплатой
         System.out.println("сотрудник с максимальной зарплатой:");
-        employeesBook.printEmployeeWithMaxSalary();
+        System.out.println(employeesBook.getEmployeeWithMaxSalary());
         System.out.println();
 
         //среднее значение зарплат
