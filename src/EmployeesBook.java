@@ -149,7 +149,17 @@ public class EmployeesBook {
         }
     }
 
-
+    public void toIndexTheSalary() {
+        double indexationPercentage = 0.1;
+        double indexationAmount = 0;
+        double salaryWithIndexation = 0;
+        for (Employee employee : employees) {
+            if (employee != null) {
+                indexationAmount = employee.getSalary() * indexationPercentage;
+                salaryWithIndexation = employee.getSalary() + indexationAmount;
+            }
+        }
+    }
 
 
 }
